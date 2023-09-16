@@ -1,0 +1,9 @@
+1**- Informational     -      Request recieved/processing     
+2**-Success            -      Successfully received,understood and accepted 
+200-ok, 201-ok created
+3**-Redirect          -      Further action must be taken
+301-Redirect,304-Not modified(Cached version)
+4**- CLient error     -      Request does not have what it needs
+400-bad request, 401-Unauthorized, 404-Not found
+5** - Server error    -      Server failed to fulfill an apparent valid request
+500  - Internal server error
